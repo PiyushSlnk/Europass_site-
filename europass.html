@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Information Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+<form action="db.php" method="post">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="number">Phone Number:</label>
+        <input type="tel" id="number" name="number" required>
+    </div>
+    <div class="form-group">
+     <label for="country">Class:</label>
+     <input type="text" id="country" name="country" required>
+    </div>    
+    <div class="form-group">
+     <label for="state">School Name:</label>
+     <input type="text" id="state" name="state" required>
+    </div>
+    <!-- <div class="form-group">
+        <label for="adhar">Aadhar Card Number:</label>
+        <input type="text" id="adhar" name="adhar" required>
+    </div>
+    <div class="form-group">
+        <label for="passport">Passport Status:</label>
+        <select id="passport" name="passport" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="applied">Applied</option>
+        </select>
+    </div> -->
+    <!-- <div class="form-group">
+        <label for="ielts">IELTS Status:</label>
+        <select id="ielts" name="ielts" required>
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+            <option value="applied">Applied</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" required>
+    </div>
+    <div class="form-group">
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state" required>
+    </div>
+    <div class="form-group">
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city" required>
+    </div> -->
+    <!-- <div class="form-group">
+        <label for="10th">10th Mark Percentage:</label>
+        <input type="number" id="10th" name="mark10th" step="0.01" required>
+    </div>
+    <div class="form-group">
+        <label for="12th">12th Mark Percentage:</label>
+        <input type="number" id="12th" name="mark12th" step="0.01" required>
+    </div>
+    <div class="form-group">
+        <label for="cgpa">CGPA:</label>
+        <input type="number" id="cgpa" name="cgpa" step="0.01" required>
+    </div> -->
+    <!-- <div class="form-group">
+        <label for="up_pg">UG/PG:</label>
+        <input type="text" id="up_pg" name="up_pg" required>
+    </div> -->
+    <!-- <div class="form-group">
+        <label for="hr_name">HR Name:</label>
+        <input type="text" id="hr_name" name="hr_name" required>
+    </div> -->
+    <!-- <div class="form-group">
+        <label for="passport_image">Upload Passport Size Image:</label>
+        <input type="file" id="passport_image" name="passport_image" accept="image/*" required>
+    </div> -->
+    <button type="submit" action="db.php" style="
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+    ">Submit</button>
+</form>
+<!-- sujit - 8OeIKps+3z0O5fsB -->
+</body>
+</html>

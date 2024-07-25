@@ -1,0 +1,731 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="Tooplate">
+
+        <title>Europass Immigration</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?
+        family=DM+Sans:wght@400;500;700&display=swap"
+         rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/magnific-popup.css" rel="stylesheet">
+
+        <link href="css/tooplate-waso-strategy.css" rel="stylesheet">
+
+
+        
+
+    </head>    
+    <body id="section_1">
+
+        <header class="site-header">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-3 col-md-5 col-7">
+                        <p class="text-white mb-0">
+                            <i class="bi-clock site-header-icon me-2"></i>
+                            Mon-Fri 10:00-19:00
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-5">
+                        <p class="text-white mb-0">
+                            <a href="tel: 91-9971616548" class="text-white">
+                                <i class="bi-telephone site-header-icon me-2"></i>
+                                91-9971616548
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12 ms-auto">
+                        <ul class="social-icon">
+                            <li><a href="https://www.linkedin.com/company/europass-immigration/" 
+                                class="social-icon-link bi-linkedin"></a></li>
+
+                            <li><a href="https://www.facebook.com/share/NSQAjoc8ffRaiYZB/?mibextid=qi2Omg"
+                                 class="social-icon-link bi-facebook"></a></li>
+
+                            <li><a href="https://www.instagram.com/europassimmigration?
+                                igsh=MWVrZ3lvcTM4Y3ZnYw==" class="social-icon-link bi-instagram">
+                            </a></li>
+
+                            <li><a href="https://youtube.com/@europassimmigration?si=HUNqoYPLVyONhaR" 
+                                class="social-icon-link bi-youtube">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg bg-white shadow-lg">
+            <div class="container">
+
+                <a href="index.html" class="navbar-brand">
+                    <img src="images/europass.logo.png" alt="Your Image" 
+                    style="height: 40px; width: auto; margin-right: 10px;">
+                </a>
+                
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                          <select class="dropdown-item" id="country-select" onchange="showUniversities()">
+                            <option class="dropdown-item" value="">Select a country</option>
+                            <option  value="germany">Germany</option>
+                            <option value="uk">UK</option>
+                            <option value="usa">USA</option>
+                            <option value="australia">Australia</option>
+                            <option value="austria">Austria</option>
+                            <option value="canada">Canada</option>
+                        </select>
+                        </li>
+                
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <small class="small-title"><strong class="text-warning">Study Abroad</strong></small> 
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!-- Dropdown items here -->
+                                <li><a class="dropdown-item" href="#section_5">Germany</a></li>
+                                <li><a class="dropdown-item" href="#section_6">Australia</a></li>
+                                <li><a class="dropdown-item" href="#section_6">Austria</a></li>
+                                <li><a class="dropdown-item" href="#section_6">Unitade Kingdome</a></li>
+                                <li><a class="dropdown-item" href="#section_6">U.S.A.</a></li>
+                                <li><a class="dropdown-item" href="#section_6">Canada</a></li>
+                                <!-- Add more dropdown items as needed -->
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <small class="small-title"><strong class="text-warning">Courses</strong></small> 
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!-- Dropdown items here -->
+                                <li><a class="dropdown-item" href="#section_5">ILTES</a></li>
+                                <li><a class="dropdown-item" href="#section_6">PET</a></li>
+                                <li><a class="dropdown-item" href="#section_6">Spoken English</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <small class="small-title">
+                                    <strong class="text-warning">Contact Us</strong>
+                                </small> 
+                            </a> -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!-- Dropdown items here -->
+                                <li><a class="dropdown-item" href="BusinesQuerry.html">
+                                    Busines Querry
+                                </a></li>
+                                <li><a class="dropdown-item" href="#section_6">Student Querry</a></li>
+                                <li><a class="dropdown-item" href="#section_6">Careeres</a></li>
+                                <!-- Add more dropdown items as needed -->
+                            </ul>
+                        </li>
+                        <a class="nav-link" href="BusinesQuerry.html" id="navbarDropdown" role="button" data-bs-
+                        toggle="dropdown" aria-expanded="false">
+                        <small class="small-title">
+                            <strong class="text-warning">Contact </strong>
+                        </small> 
+                        </a>
+                        <a class="nav-link" href="Blogpage.html" id="navbarDropdown" role="button" data-bs-
+                        toggle="dropdown" aria-expanded="false">
+                        <small class="small-title">
+                            <strong class="text-warning">Blog</strong>
+                        </small> 
+                        </a>
+                        <!-- free counseling -->
+                        <a class="nav-link" href="Counseling.html" id="navbarDropdown" role="button">
+                            <small class="small-title">
+                                <strong class="text-warning" style="background-color: #25d3bf; padding: 20px;">
+                                    Book Free Counseling
+                                </strong>
+                            </small> 
+                        </a>
+                        
+                    </ul>
+                </div>  
+            </div>
+        </nav>
+        <!-- start -->
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>Top Universities</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                }
+                header, footer {
+                    background-color: #333;
+                    color: white;
+                    text-align: center;
+                    padding: 10px 0;
+                }
+                header h1, footer p {
+                    margin: 0;
+                }
+                main {
+                  text-align: center;
+                    padding: 20px;
+                }
+                #university-list {
+                    margin-top: 20px;
+                    list-style-type: none;
+                    padding: 0;
+                }
+                #university-list li {
+                    margin-bottom: 20px;
+                }
+                #university-list img {
+                    /* align-items: center; */
+                    max-width: 100%;
+                    height: auto;
+                    display: inline;
+                    text-align: center;
+                }
+                #top-university {
+                    margin-top: 20px;
+                    font-weight: bold;
+                }
+                select {
+                    padding: 5px;
+                    
+                    margin-top: 10px;
+                }
+            </style>
+            <script>
+            function addStyles() {
+              const style = document.createElement('style');
+              style.textContent = `
+                  body {
+                      font-family: Arial, sans-serif;
+                      margin: 0;
+                      padding: 0;
+                  }
+          
+                  header {
+                      background-color: #333;
+                      color: #fff;
+                      text-align: center;
+                      padding: 1em 0;
+                  }
+          
+                  main {
+                      padding: 20px;
+                  }
+          
+                  select {
+                      font-size: 16px;
+                      padding: 10px;
+                      margin-bottom: 20px;
+                  }
+          
+                  #top-university {
+                      font-weight: bold;
+                      margin-bottom: 20px;
+                  }
+          
+                  #university-list {
+                      list-style-type: none;
+                      padding: 0;
+                      margin: 0;
+                  }
+          
+                  #university-list li {
+                      margin-bottom: 20px;
+                      border: 1px solid #ccc;
+                      padding: 20px;
+                  }
+          
+                  #university-list li img {
+                      max-width: 100%;
+                      height: auto;
+                      margin-bottom: 10px;
+                      text-align: center;
+                  }
+          
+                  #university-list li h3 {
+                      margin-top: 0;
+                  }
+              `;
+              document.head.appendChild(style);
+          }
+          
+          // Call the function to add styles when needed
+          addStyles();
+          
+                const universities = {
+                    germany: [
+                        { name: "LMU Munich", 
+                        description: "Ludwig Maximilian University of Munich is one of Europe's premier academic and research institutions.LMU Munich:Ludwig Maximilian University of Munich, established in 1472, is one of Europe's leading academic and research institutions. Renowned for its innovative teaching and cutting-edge research, it attracts top talent globally.**LMU Munich:** Ludwig Maximilian University of Munich, established in 1472, is one of Europe's leading academic and research institutions. Renowned for its innovative teaching and cutting-edge research, it attracts top talent globally.", 
+                        image: "https://www.lsm.bio.lmu.de/0_assets/About-LSM---Photos/schmuckhof.jpg" 
+                        },
+                        { 
+                          name: "Heidelberg University", 
+                          description: "Heidelberg University, founded in 1386, is Germany’s oldest university.", 
+                          image: "https://blog.rmgoe.org/wp-content/uploads/2022/06/Heidelberg-University-Germany-1.jpg" 
+                        },
+                        { 
+                          name: "Humboldt University of Berlin", 
+                          description: "Humboldt University of Berlin is a university in the central borough of Mitte in Berlin, Germany.", 
+                          image: "https://teja8.kuikr.com/images/QuikrEducation//image/institute/11092/Humboldt-University-of-Berlin_1.jpg" 
+                        },
+                        { 
+                          name: "Technical University of Munich", 
+                          description: "The Technical University of Munich is a research university with campuses in Munich, Garching, and Freising-Weihenstephan.", 
+                          image: "https://images.shiksha.com/mediadata/images/1533559592php3XzNsk.jpeg" 
+                        },
+                        { 
+                          name: "University of Freiburg", 
+                          description: "The University of Freiburg, founded in 1457, is located in Freiburg im Breisgau, Baden-Württemberg, Germany.", 
+                          image: "https://images.shiksha.com/mediadata/images/1544073436phpest1ta.jpeg" 
+                        },
+                        { 
+                          name: "University of Tübingen", 
+                          description: "The University of Tübingen, founded in 1477, is one of Europe’s oldest universities.", 
+                          image: "https://uni24k.com/media/CACHE/images/unis/pic_school_4541_building_fa2f7367/79bd71947bb2135bdf95b9cfd659d4da.jpg" 
+                        },
+                        { 
+                          name: "University of Göttingen", 
+                          description: "The University of Göttingen, founded in 1737, is a public research university in the city of Göttingen, Germany.", 
+                          image: "https://images.shiksha.com/mediadata/images/1534937542phpE9yuZ6.jpeg" 
+                        },
+                        { 
+                          name: "University of Bonn", 
+                          description: "The University of Bonn is a public research university located in Bonn, Germany.", 
+                          image: "https://images.shiksha.com/mediadata/images/1535522883phpb1rolZ.png" 
+                        },
+                        { 
+                          name: "Free University of Berlin", 
+                          description: "The Free University of Berlin is a research university in Berlin, Germany.", 
+                          image: "https://images.shiksha.com/mediadata/images/1534248249phpdkbqGE.jpeg" 
+                        },
+                        { 
+                          name: "University of Mannheim", 
+                          description: "The University of Mannheim is one of Germany's leading research universities.", 
+                          image: "https://images.shiksha.com/mediadata/images/1638527863php7G3FUy_g.jpg" 
+                        }
+                    ],
+                    uk: [
+                        { name: "University of Oxford", description: "The University of Oxford is a collegiate research university in Oxford, England.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Oxford_Merton_College.jpg/320px-Oxford_Merton_College.jpg" },
+                        { name: "University of Cambridge", description: "The University of Cambridge is a collegiate research university in Cambridge, United Kingdom.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/TrinityCollegeCamGreatCourt.jpg/320px-TrinityCollegeCamGreatCourt.jpg" },
+                        { name: "Imperial College London", description: "Imperial College London is a public research university in London, United Kingdom.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Imperial_College_London.jpg/320px-Imperial_College_London.jpg" },
+                        { name: "London School of Economics", description: "The London School of Economics and Political Science is a public research university in London, England.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/LSE_campus.jpg/320px-LSE_campus.jpg" },
+                        { name: "University College London", description: "University College London is a public research university in London, United Kingdom.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/UCL_Portico.jpg/320px-UCL_Portico.jpg" },
+                        { name: "University of Edinburgh", description: "The University of Edinburgh, founded in 1582, is the sixth oldest university in the English-speaking world.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Old_College%2C_University_of_Edinburgh.jpg/320px-Old_College%2C_University_of_Edinburgh.jpg" },
+                        { name: "University of Manchester", description: "The University of Manchester is a public research university in Manchester, England.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/University_of_Manchester.JPG/320px-University_of_Manchester.JPG" },
+                        { name: "King's College London", description: "King's College London is a public research university located in London, England.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/King%27s_College_London_Coat_of_Arms.jpg/320px-King%27s_College_London_Coat_of_Arms.jpg" },
+                        { name: "University of Warwick", description: "The University of Warwick is a public research university in Coventry, England.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/University_of_Warwick_Library.jpg/320px-University_of_Warwick_Library.jpg" },
+                        { name: "University of Bristol", description: "The University of Bristol is a red brick research university in Bristol, England.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Wills_Memorial_Building_Bristol_University.jpg/320px-Wills_Memorial_Building_Bristol_University.jpg" }
+                    ],
+                    usa: [
+                        { name: "Harvard University", description: "Harvard University is a private Ivy League research university in Cambridge, Massachusetts.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Harvard_University_Widener_Library.jpg/320px-Harvard_University_Widener_Library.jpg" },
+                        { name: "Stanford University", description: "Stanford University is a private research university in Stanford, California.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Aerial_view_of_Stanford_Campus.JPG/320px-Aerial_view_of_Stanford_Campus.JPG" },
+                        { name: "MIT", description: "The Massachusetts Institute of Technology (MIT) is a private research university in Cambridge, Massachusetts.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/MIT_Dome_night2.jpg/320px-MIT_Dome_night2.jpg" },
+                        { name: "Caltech", description: "The California Institute of Technology (Caltech) is a private research university in Pasadena, California.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Caltech_Humanities.jpg/320px-Caltech_Humanities.jpg" },
+                        { name: "University of Chicago", description: "The University of Chicago is a private research university in Chicago, Illinois.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/University_of_Chicago.jpg/320px-University_of_Chicago.jpg" },
+                        { name: "Princeton University", description: "Princeton University is a private Ivy League research university in Princeton, New Jersey.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Princeton_University.jpg/320px-Princeton_University.jpg" },
+                        { name: "Yale University", description: "Yale University is a private Ivy League research university in New Haven, Connecticut.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Yale_University_Campus.jpg/320px-Yale_University_Campus.jpg" },
+                        { name: "Columbia University", description: "Columbia University is a private Ivy League research university in New York City.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Columbia_University_Low_Library_2010.jpg/320px-Columbia_University_Low_Library_2010.jpg" },
+                        { name: "University of Pennsylvania", description: "The University of Pennsylvania is a private Ivy League research university in Philadelphia, Pennsylvania.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/College_Hall%2C_University_of_Pennsylvania.jpg/320px-College_Hall%2C_University_of_Pennsylvania.jpg" },
+                        { name: "University of California, Berkeley", description: "The University of California, Berkeley is a public research university in Berkeley, California.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Campanile_and_sather_gate.jpg/320px-Campanile_and_sather_gate.jpg" }
+                    ],
+                    australia: [
+                        { name: "Australian National University", description: "The Australian National University is a national research university located in Canberra, the capital of Australia.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Australian_National_University.jpg/320px-Australian_National_University.jpg" },
+                        { name: "University of Melbourne", description: "The University of Melbourne is a public research university located in Melbourne, Australia.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/University_of_Melbourne_Quadrangle.jpg/320px-University_of_Melbourne_Quadrangle.jpg" },
+                        { name: "University of Sydney", description: "The University of Sydney is a public research university in Sydney, Australia.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/The_Quadrangle_University_of_Sydney.jpg/320px-The_Quadrangle_University_of_Sydney.jpg" },
+                        { name: "University of Queensland", description: "The University of Queensland is a public research university primarily located in Brisbane, Australia.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/University_of_Queensland_campus.jpg/320px-University_of_Queensland_campus.jpg" },
+                        { name: "University of New South Wales", description: "The University of New South Wales is a public research university in Sydney, Australia.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/University_of_New_South_Wales_Campus.jpg/320px-University_of_New_South_Wales_Campus.jpg" },
+                        { name: "Monash University", description: "Monash University is a public research university based in Melbourne, Australia.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Monash_University_Caulfield_campus.jpg/320px-Monash_University_Caulfield_campus.jpg" },
+                        { name: "University of Western Australia", description: "The University of Western Australia is a public research university in Perth, Australia.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/UWA_Perth.jpg/320px-UWA_Perth.jpg" },
+                        { name: "University of Adelaide", description: "The University of Adelaide is a public university located in Adelaide, South Australia.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/University_of_Adelaide.jpg/320px-University_of_Adelaide.jpg" },
+                        { name: "University of Technology Sydney", description: "The University of Technology Sydney is a public university located in Sydney, Australia.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/University_of_Technology_Sydney.jpg/320px-University_of_Technology_Sydney.jpg" },
+                        { name: "Macquarie University", description: "Macquarie University is a public research university based in Sydney, Australia.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Macquarie_University_campus.jpg/320px-Macquarie_University_campus.jpg" }
+                    ],
+                    austria: [
+                        { name: "University of Vienna", description: "The University of Vienna is a public university located in Vienna, Austria.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/University_of_Vienna.jpg/320px-University_of_Vienna.jpg" },
+                        { name: "Vienna University of Technology", description: "The Vienna University of Technology is one of the major universities in Vienna, Austria.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/TU_Wien_Main_Building.jpg/320px-TU_Wien_Main_Building.jpg" },
+                        { name: "University of Innsbruck", description: "The University of Innsbruck is a public university in Innsbruck, Austria.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/University_of_Innsbruck.jpg/320px-University_of_Innsbruck.jpg" },
+                        { name: "Graz University of Technology", description: "The Graz University of Technology is a public university located in Styria, Austria.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Graz_University_of_Technology.jpg/320px-Graz_University_of_Technology.jpg" },
+                        { name: "University of Graz", description: "The University of Graz is a public university located in Graz, Austria.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/University_of_Graz.jpg/320px-University_of_Graz.jpg" },
+                        { name: "University of Salzburg", description: "The University of Salzburg, founded in 1622, is located in Salzburg, Austria.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/University_of_Salzburg.jpg/320px-University_of_Salzburg.jpg" },
+                        { name: "Medical University of Vienna", description: "The Medical University of Vienna is a public university located in Vienna, Austria.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Medical_University_of_Vienna.jpg/320px-Medical_University_of_Vienna.jpg" },
+                        { name: "Johannes Kepler University Linz", description: "The Johannes Kepler University Linz is a public university located in Linz, Austria.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Johannes_Kepler_University_Linz.jpg/320px-Johannes_Kepler_University_Linz.jpg" },
+                        { name: "University of Klagenfurt", description: "The University of Klagenfurt is a public university located in Klagenfurt, Austria.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/University_of_Klagenfurt.jpg/320px-University_of_Klagenfurt.jpg" },
+                        { name: "University of Leoben", description: "The University of Leoben is a public university located in Leoben, Austria.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/University_of_Leoben.jpg/320px-University_of_Leoben.jpg" }
+                    ],
+                    canada: [
+                        { name: "University of Toronto", description: "The University of Toronto is a public research university in Toronto, Ontario, Canada.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/University_of_Toronto.jpg/320px-University_of_Toronto.jpg" },
+                        { name: "University of British Columbia", description: "The University of British Columbia is a public research university with campuses in Vancouver and Kelowna, British Columbia.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/UBC_Campus.jpg/320px-UBC_Campus.jpg" },
+                        { name: "McGill University", description: "McGill University is a public research university in Montreal, Quebec, Canada.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/McGill_University.jpg/320px-McGill_University.jpg" },
+                        { name: "University of Alberta", description: "The University of Alberta is a public research university located in Edmonton, Alberta, Canada.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/University_of_Alberta.jpg/320px-University_of_Alberta.jpg" },
+                        { name: "University of Montreal", description: "The University of Montreal is a public research university in Montreal, Quebec, Canada.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/University_of_Montreal.jpg/320px-University_of_Montreal.jpg" },
+                        { name: "McMaster University", description: "McMaster University is a public research university in Hamilton, Ontario, Canada.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/McMaster_University.jpg/320px-McMaster_University.jpg" },
+                        { name: "University of Waterloo", description: "The University of Waterloo is a public research university in Waterloo, Ontario, Canada.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/University_of_Waterloo.jpg/320px-University_of_Waterloo.jpg" },
+                        { name: "Western University", description: "Western University is a public research university in London, Ontario, Canada.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Western_University.jpg/320px-Western_University.jpg" },
+                        { name: "University of Calgary", description: "The University of Calgary is a public research university located in Calgary, Alberta, Canada.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/University_of_Calgary.jpg/320px-University_of_Calgary.jpg" },
+                        { name: "Queen's University", description: "Queen's University is a public research university in Kingston, Ontario, Canada.", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Queen%27s_University.jpg/320px-Queen%27s_University.jpg" }
+                    ]
+                };
+        
+                function showUniversities() {
+                    const country = document.getElementById("country-select").value;
+                    const list = document.getElementById("university-list");
+                    const topUniversity = document.getElementById("top-university");
+                    list.innerHTML = "";
+                    topUniversity.innerHTML = "";
+        
+                    if (universities[country]) {
+                        topUniversity.textContent = "Top University: " + universities[country][0].name;
+                        universities[country].forEach(university => {
+                            const li = document.createElement("li");
+        
+                            const img = document.createElement("img");
+                            img.src = university.image;
+                            img.alt = university.name;
+        
+                            const name = document.createElement("h3");
+                            name.textContent = university.name;
+        
+                            const desc = document.createElement("p");
+                            desc.textContent = university.description;
+        
+                            li.appendChild(img);
+                            li.appendChild(name);
+                            li.appendChild(desc);
+                            list.appendChild(li);
+                        });
+                    }
+                }
+            </script>
+        </head>
+        <body>
+            <main>
+              <div class="m" style="text-align: center;">
+                <h2 style="text-align: center;">Select a Country to See Top 10 Universities</h2>
+                <br>
+                <p style="line-height: 2rem;">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora libero accusamus nemo eius consectetur, esse corrupti rem delectus harum ea amet quis nostrum, br vel enim ratione dolorum, culpa minima exercitationem?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora libero accusamus nemo eius consectetur, esse corrupti rem delectus harum ea amet quis nostrum, vel enim ratione dolorum, culpa minima exercitationem?
+                </p>
+              </div>
+        
+                <div id="top-university"></div>
+                <ul id="university-list"></ul>
+            </main>
+        </body>
+        </html>
+
+<style>
+            ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ffd728;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+        </style>
+        <footer class="footer-section">
+            <div class="container">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>2ND FLOOR, SANKAT MOCHAN MARKET, VIGEN INDIA, near MUNNACHOWK, New Colony, Kankarbagh, Chitragupta Nagar, Patna, Bihar 800020</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>91-9971616548</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>info@europass.in</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="images/europass.logo.png" alt="Your Image" 
+                                        style="height: 40px; width: auto; margin-right: 10px;"></a>
+                                </div>
+                                <div class="footer-text">
+                                    <p>We, Europass situated at Kankarbagh, Patna, Bihar, Aim to cater to various educational counsellings needs of todays generation, weve established to offer…..</p>
+                                </div>
+                                <div class="footer-social-icon">
+                                    <span>Follow us</span>
+                                    <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                    <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Useful Links</h3>
+                                <ul>
+                                    <li><a href="about_us.html">About </a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Contact </a></li>
+                                 </ul>   
+                                </div>
+                                <ul>
+                                
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Empower yourself with the knowledge and skills gained through Europass Immigration and best Wordwide Universities.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 2024, All Right Reserved <a href="#">Europass Immigration</a></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="about_us.html">About</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="Employees.html">Employees</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/magnific-popup-options.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>

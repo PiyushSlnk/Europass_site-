@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	
+ 	 <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Contact Form</title>
+      <!-- CSS FILES -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+      
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      
+      <link href="https://fonts.googleapis.com/css2?
+      family=DM+Sans:wght@400;500;700&display=swap"
+       rel="stylesheet">
+
+      
+      <!-- Google Web Fonts -->
+       
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?
+      family=DM+Sans:wght@400;500;700&display=swap"
+       rel="stylesheet">
+
+   <!-- CSS FILES -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+      
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+   <link href="https://fonts.googleapis.com/css2?
+   family=DM+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+   <link href="css/bootstrap.min.css" rel="stylesheet">
+
+   <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+   <link href="css/magnific-popup.css" rel="stylesheet">
+
+   <link href="css/tooplate-waso-strategy.css" rel="stylesheet">
+
+   <!-- Google Web Fonts -->
+   
+   
+ <style>
+          .whatsapp-link {
+              display: inline-flex;
+              justify-content: center;
+              align-items: center;
+              width: 60px;
+              height: 60px;
+              background-color: #25D366; 
+              border-radius: 50%;
+              transition: transform 0.3s, box-shadow 0.3s;
+              text-align: center;
+              cursor: pointer;
+              border: 2px solid #fff; 
+              box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+              position: fixed;
+              right: 20px; 
+              bottom: 20px;
+              z-index: 1000; 
+          }
+          .whatsapp-link:hover {
+              transform: scale(1.1); /* Scale up on hover */
+              box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Increased shadow on hover */
+          }
+          .whatsapp-icon {
+              width: 40px;
+              height: 40px;
+              vertical-align: middle;
+          }
+      </style>
+        
+        
+</head>
+<body class="bg-gray-100">
+  <header class="site-header">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <div class="col-lg-3 col-md-5 col-7">
+                <p class="text-white mb-0" style="font-size:12px;">
+                    <i class="bi-clock site-header-icon me-2"></i>
+                    Mon-Fri 10:00 AM - 7:00 PM
+                </p>
+            </div>
+
+            <div class="col-lg-2 col-md-3 col-5">
+                <p class="text-white mb-0" style="font-size:12px;">
+                    <a href="tel: +919971616548" class="text-white">
+                       <i class="bi-telephone site-header-icon me-2"></i>
+                        +919971616548
+                    </a>
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-12 ms-auto">
+                <ul class="social-icon">
+                    <li><a href="https://www.linkedin.com/company/europass-immigration/" 
+                        class="social-icon-link bi-linkedin" target="_blank"></a></li>
+
+                    <li><a href="https://www.facebook.com/share/NSQAjoc8ffRaiYZB/?mibextid=qi2Omg"
+                         class="social-icon-link bi-facebook" target="_blank"></a></li>
+
+                    <li><a href="https://www.instagram.com/europassimmigration?
+                        igsh=MWVrZ3lvcTM4Y3ZnYw==" class="social-icon-link bi-instagram" target="_blank">
+                    </a></li>
+
+                    <li><a href="https://youtube.com/@europassimmigration?si=HUNqoYPLVyONhaR" 
+                        class="social-icon-link bi-youtube" target="_blank">
+                    </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   
+    <style>
+        .navbar-brand {
+    display: inline-flex; /* Ensures anchor tag behaves like a flex container */
+    align-items: center; /* Aligns items vertically */
+    text-decoration: none; /* Removes underline from anchor tag */
+  }
+  
+  .navbar-brand img {
+    height: 80px; /* Set the height of the logo */
+    width: auto; /* Automatically adjust width to maintain aspect ratio */
+    margin-right: 10px; /* Adds margin to the right of the logo */
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .navbar-brand img {
+      height: 60px; /* Adjust height for smaller screens */
+    }
+  }
+  
+      </style>
+      
+  </header>
+    
+ 
+    <nav class="navbar navbar-expand-lg bg-white shadow-lg">
+        <div class="container">
+
+            <a href="index.html" class="navbar-brand">
+                <img src="images/europass.logo.png" alt="Euro" 
+                style="height: 40px; width: auto; margin-right: 10px;">
+            </a>
+            
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <!-- Dropdown items here
+                            <li><a class="dropdown-item" href="reg.html">Login </a></li>
+                            <li><a class="dropdown-item" href="reg.html">Regiester</a></li>
+                            <li><a class="dropdown-item" href="admin.html">Admin Login</a></li> -->
+                            <!-- Add more dropdown items as needed -->
+                        </ul>
+                    </li>
+
+                    <!-- serivice us -->
+                    <a class="nav-link" href="services.html" id="navbarDropdown" role="button" data-bs-
+                        toggle="dropdown" aria-expanded="false">
+                        <small class="small-title">
+                            <strong class="text-warning">
+                                Services
+                            </strong>
+                        </small> 
+                    </a>
+                  
+                  	<!-- serivice us -->
+                    <a class="nav-link" href="course.html" id="navbarDropdown" role="button" data-bs-
+                        toggle="dropdown" aria-expanded="false">
+                        <small class="small-title">
+                            <strong class="text-warning">
+                                Courses
+                            </strong>
+                        </small> 
+                    </a>
+                 
+                 
+                    <!-- about us -->
+                    <a class="nav-link" href="about-us.html" id="navbarDropdown" role="button" data-bs-
+                        toggle="dropdown" aria-expanded="false">
+                        <small class="small-title">
+                            <strong class="text-warning">About </strong>
+                        </small> 
+                    </a>
+                  
+                   <a class="nav-link" href="Blog.html" id="navbarDropdown" role="button" data-bs-
+                        toggle="dropdown" aria-expanded="false">
+                        <small class="small-title">
+                            <strong class="text-warning">Blog </strong>
+                        </small> 
+                    </a>
+
+
+            
+                    
+
+                    
+                    
+                    <!-- free counseling -->
+                    <a class="nav-link" href="Counseling.html" id="navbarDropdown" role="button">
+                        <small class="small-title">
+                            <strong class="text-warning" style="background-color: #25d3bf; padding: 20px;">
+                                Book Free Counseling
+                            </strong>
+                        </small> 
+                    </a>
+                    
+                </ul>
+            </div>  
+        </div>
+    </nav>
+    </div>
+  </header>
+
+ 
+      
+
+  <!-- Main Content -->
+  <div class="max-w-screen-lg mx-auto p-5">
+    <div class="grid grid-cols-1 md:grid-cols-12 border">
+      <!-- Contact Information Section -->
+      <div class="bg-yellow-400 md:col-span-4 p-10 text-white">
+          <p class="mt-4 text-sm uppercase" style="color:white;">
+          Contact
+        </p>
+        <h3 class="text-3xl sm:text-4xl leading-normal font-extrabold tracking-tight">
+          Get In <span class="text-indigo-600">Touch</span>
+        </h3>
+        <p class="mt-4 leading-7 text-gray-200" style="margin-left:12px;">
+            If you require any assistance or have inquiries related to our services, feel free to
+            get in touch with us. Our team is here to help you with any business-related questions
+            you may have.
+        </p>
+        
+        <div class="flex items-center mt-5">
+          <svg class="h-6 mr-2 text-indigo-600" fill="currentColor" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 489.536 489.536" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 489.536 489.536">
+            <!-- SVG Path -->
+          </svg>
+          <span class="mt-4 leading-7 text-gray-200" style="margin-right:20px;">2ND FLOOR, SANKAT MOCHAN MARKET, VIGEN INDIA, near MUNNACHOWK, New Colony, Kankarbagh, Chitragupta Nagar, Patna, Bihar 800020</span>
+        </div>
+        <div class="flex items-center mt-5">
+          <svg class="h-6 mr-2 text-indigo-600" fill="currentColor" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 60.002 60.002" style="enable-background:new 0 0 60.002 60.002;" xml:space="preserve">
+            <!-- SVG Path -->
+          </svg>
+          <p style="margin-right:140px;color:white;">Calling number +919971616548</p>
+        </div>
+        <div class="flex items-center mt-5">
+          <svg class="h-6 mr-2 text-indigo-600" fill="currentColor" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300.988 300.988" style="enable-background:new 0 0 300.988 300.988;" xml:space="preserve">
+            <!-- SVG Path -->
+          </svg>
+          
+        </div>
+      </div>
+      <!-- Contact Form Section -->
+      <form class="md:col-span-8 p-10 bg-white" action="https://api.web3forms.com/submit" method="post" role="form">
+        <div class="mb-4">
+          <label for="first_name" class="block text-gray-700 text-sm font-bold mb-2">Full Name:</label>
+          <input type="hidden" name="access_key" value="cfc53c02-4939-4921-8a83-24e05e0f30de">
+          <input type="text" id="first_name" name="first_name" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+        </div>
+        <div class="mb-4">
+          <label for="mobile_number" class="block text-gray-700 text-sm font-bold mb-2">Mobile Number:</label>
+          <input type="text" id="mobile_number" name="mobile_number" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+        </div>
+        <div class="mb-4">
+          <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email Address:</label>
+          <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+        </div>
+        <div class="mb-4">
+          <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Your Message:</label>
+          <textarea id="
+          message" name="message" class="shadow appearance-none border rounded w-full py-2 
+          px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+        </div>
+        <div class="mb-4">
+          <input type="checkbox" id="newsletter" name="newsletter" class="mr-2 leading-tight">
+          <label for="newsletter" class="text-sm text-gray-700">Send me your newsletter!</label>
+        </div>
+        <div class="flex items-center justify-between">
+          <button type="submit" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-4 
+          rounded focus:outline-none focus:shadow-outline">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+<footer>
+  <!-- wtapp start -->
+      	<div class="whatsapp-link" onclick="openWhatsAppChat()">
+            <img src="images/img-removebg-preview.png" alt="WhatsApp" class="whatsapp-icon">
+        </div>
+        
+        <script>
+            function openWhatsAppChat() {
+                window.open('https://api.whatsapp.com/send?phone=+917488369925&text=Hello%20there!', '_blank');
+            }
+        </script>
+  <!------Wapp-->
+
+  <style>
+    ul {
+margin: 0px;
+padding: 0px;
+}
+.footer-section {
+background: #151414;
+position: relative;
+}
+.footer-cta {
+border-bottom: 1px solid #373636;
+}
+.single-cta i {
+color: #ffd728;
+font-size: 30px;
+float: left;
+margin-top: 8px;
+}
+.cta-text {
+padding-left: 15px;
+display: inline-block;
+}
+.cta-text h4 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 2px;
+}
+.cta-text span {
+color: #757575;
+font-size: 15px;
+}
+.footer-content {
+position: relative;
+z-index: 2;
+}
+.footer-pattern img {
+position: absolute;
+top: 0;
+left: 0;
+height: 330px;
+background-size: cover;
+background-position: 100% 100%;
+}
+.footer-logo {
+margin-bottom: 30px;
+}
+.footer-logo img {
+max-width: 200px;
+}
+.footer-text p {
+margin-bottom: 14px;
+font-size: 14px;
+color: #7e7e7e;
+line-height: 28px;
+}
+.footer-social-icon span {
+color: #fff;
+display: block;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 20px;
+}
+.footer-social-icon a {
+color: #fff;
+font-size: 16px;
+margin-right: 15px;
+}
+.footer-social-icon i {
+height: 40px;
+width: 40px;
+text-align: center;
+line-height: 38px;
+border-radius: 50%;
+}
+.facebook-bg{
+background: #3B5998;
+}
+.twitter-bg{
+background: #55ACEE;
+}
+.google-bg{
+background: #DD4B39;
+}
+.footer-widget-heading h3 {
+color: #fff;
+font-size: 20px;
+font-weight: 600;
+margin-bottom: 40px;
+position: relative;
+}
+.footer-widget-heading h3::before {
+content: "";
+position: absolute;
+left: 0;
+bottom: -15px;
+height: 2px;
+width: 50px;
+background: #ff5e14;
+}
+.footer-widget ul li {
+display: inline-block;
+float: left;
+width: 50%;
+margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+color: #ff5e14;
+}
+.footer-widget ul li a {
+color: #878787;
+text-transform: capitalize;
+}
+.subscribe-form {
+position: relative;
+overflow: hidden;
+}
+.subscribe-form input {
+width: 100%;
+padding: 14px 28px;
+background: #2E2E2E;
+border: 1px solid #2E2E2E;
+color: #fff;
+}
+.subscribe-form button {
+position: absolute;
+right: 0;
+background: #ff5e14;
+padding: 13px 20px;
+border: 1px solid #ff5e14;
+top: 0;
+}
+.subscribe-form button i {
+color: #fff;
+font-size: 22px;
+transform: rotate(-6deg);
+}
+.copyright-area{
+background: #202020;
+padding: 25px 0;
+}
+.copyright-text p {
+margin: 0;
+font-size: 14px;
+color: #878787;
+}
+.copyright-text p a{
+color: #ff5e14;
+}
+.footer-menu li {
+display: inline-block;
+margin-left: 20px;
+}
+.footer-menu li:hover a{
+color: #ff5e14;
+}
+.footer-menu li a {
+font-size: 14px;
+color: #878787;
+}
+</style>
+<footer class="footer-section">
+<div class="container">
+    <div class="footer-cta pt-5 pb-5">
+        <div class="row">
+            <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                    <div class="cta-text">
+                        <h4>Find us</h4>
+                        <span>Atelierstraße 1, 81671 München, Germany</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                    <div class="cta-text">
+                        <h4>Call us</h4>
+                        <span>+919971616548</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-4 mb-30">
+                <div class="single-cta">
+                    <div class="cta-text">
+                        <h4>Mail us</h4>
+                        <span>info@europass.in</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-content pt-5 pb-5">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 mb-50">
+                <div class="footer-widget">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="images/europass.logo.png" alt="Euro footer image" 
+                            style="height: 40px; width: auto; margin-right: 10px;"></a>
+                    </div>
+                    <div class="footer-text">
+                        <p>We, Europass situated at Kankarbagh, Patna, Bihar, Aim to cater to various educational counsellings needs of todays generation, weve established to offer.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                <div class="footer-widget">
+                    <div class="footer-widget-heading">
+                        <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="about-us.html">About </a></li>
+                        <li><a href="Blog.html">Blogs</a></li>
+                        <li><a href="ielts.html">IELTS</a></li>
+                        <li><a href="PTE.html">PTE</a></li>
+                        <li><a href="spoken.html">Spoken English</a></li>
+                        <li><a href="BusinesQuerry.html">Contact </a></li>
+                     </ul>   
+                    </div>
+                    <ul>
+                    
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                <div class="footer-widget">
+                    <div class="footer-widget-heading">
+                        <h3>About Us</h3>
+                    </div>
+                    <div class="footer-text mb-25">
+                        <p>Our immigration advisors and experts meticulously assess each case, providing you with the optimal guidance tailored to your needs.</p>
+                    </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                <div class="copyright-text">
+                    <p>Copyright &copy; 2024, All Right Reserved <a href="index.html">Europass Immigration</a></p>
+                </div>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                <div class="footer-menu">
+                    <ul>
+                        <li><a href="about-us.html">About</a></li>
+                        <li><a href="Blog.html">Blogs</a></li>
+                        <!--<li><a href="#">Privacy Policy</a></li>-->
+                        <li><a href="BusinesQuerry.html">Contact</a></li>
+                        <!--<li><a href="Employees.html">Employees</a></li>-->
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+
+<!-- JAVASCRIPT FILES -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.sticky.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/magnific-popup-options.js"></script>
+<script src="js/click-scroll.js"></script>
+<script src="js/custom.js"></script>
+
+
+     
+</footer>
+</html>

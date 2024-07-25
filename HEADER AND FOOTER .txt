@@ -1,0 +1,508 @@
+**** HEADER AND FOOTER ****
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="">
+        <meta name="author" content="Tooplate">
+
+        <title>Europass Immigration</title>
+
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?
+        family=DM+Sans:wght@400;500;700&display=swap"
+         rel="stylesheet">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+        <link href="css/magnific-popup.css" rel="stylesheet">
+
+        <link href="css/tooplate-waso-strategy.css" rel="stylesheet">
+
+
+        
+
+    </head>    
+    <body id="section_1">
+
+        <header class="site-header">
+            <div class="container">
+                <div class="row align-items-center">
+
+                    <div class="col-lg-3 col-md-5 col-7">
+                        <p class="text-white mb-0">
+                            <i class="bi-clock site-header-icon me-2"></i>
+                            Mon-Fri 10:00-19:00
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-3 col-5">
+                        <p class="text-white mb-0">
+                            <a href="tel: 91-9971616548" class="text-white">
+                                <i class="bi-telephone site-header-icon me-2"></i>
+                                91-9971616548
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-12 ms-auto">
+                        <ul class="social-icon">
+                            <li><a href="https://www.linkedin.com/company/europass-immigration/" 
+                                class="social-icon-link bi-linkedin"></a></li>
+
+                            <li><a href="https://www.facebook.com/share/NSQAjoc8ffRaiYZB/?mibextid=qi2Omg"
+                                 class="social-icon-link bi-facebook"></a></li>
+
+                            <li><a href="https://www.instagram.com/europassimmigration?
+                                igsh=MWVrZ3lvcTM4Y3ZnYw==" class="social-icon-link bi-instagram">
+                            </a></li>
+
+                            <li><a href="https://youtube.com/@europassimmigration?si=HUNqoYPLVyONhaR" 
+                                class="social-icon-link bi-youtube">
+                            </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg bg-white shadow-lg">
+            <div class="container">
+
+                <a href="#" class="navbar-brand">
+                    <img src="images/europass.logo.png" alt="Your Image" 
+                    style="height: 40px; width: auto; margin-right: 10px;">
+                </a>
+                
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item dropdown">
+                            <!--<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" 
+                            role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <!--<small class="small-title">
+                                    <strong class="text-warning">Singup</strong>
+                                </small>--> 
+                            <!--</a>-->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!-- Dropdown items here -->
+                                <li><a class="dropdown-item" href="reg.html">Login </a></li>
+                                <li><a class="dropdown-item" href="reg.html">Regiester</a></li>
+                                <li><a class="dropdown-item" href="admin.html">Admin Login</a></li>
+                                <!-- Add more dropdown items as needed -->
+                            </ul>
+                        </li>
+
+                        <!-- serivice us -->
+                        <a class="nav-link" href="services.html" id="navbarDropdown" role="button" data-bs-
+                            toggle="dropdown" aria-expanded="false">
+                            <small class="small-title">
+                                <strong class="text-warning">
+                                    Services
+                                </strong>
+                            </small> 
+                        </a>
+                     
+                     
+                        <!-- about us -->
+                        <a class="nav-link" href="about_us.html" id="navbarDropdown" role="button" data-bs-
+                            toggle="dropdown" aria-expanded="false">
+                            <small class="small-title">
+                                <strong class="text-warning">About </strong>
+                            </small> 
+                        </a>
+
+
+                
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <small class="small-title"><strong class="text-warning">Study Abroad</strong></small> 
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!-- Dropdown items here -->
+                                <li><a class="dropdown-item" href="#section_5">Germany</a></li>
+                                <li><a class="dropdown-item" href="#section_6">Australia</a></li>
+                                <li><a class="dropdown-item" href="#section_6">Austria</a></li>
+                                <li><a class="dropdown-item" href="#section_6">Unitade Kingdome</a></li>
+                                <li><a class="dropdown-item" href="#section_6">U.S.A.</a></li>
+                                <li><a class="dropdown-item" href="#section_6">Canada</a></li>
+                                <!-- Add more dropdown items as needed -->
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <small class="small-title"><strong class="text-warning">Courses</strong></small> 
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!-- Dropdown items here -->
+                                <li><a class="dropdown-item" href="#section_5">ILTES</a></li>
+                                <li><a class="dropdown-item" href="#section_6">PET</a></li>
+                                <li><a class="dropdown-item" href="#section_6">Spoken English</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <small class="small-title">
+                                    <strong class="text-warning">Contact Us</strong>
+                                </small> 
+                            </a> -->
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <!-- Dropdown items here -->
+                                <li><a class="dropdown-item" href="BusinesQuerry.html">
+                                    Busines Querry
+                                </a></li>
+                                <li><a class="dropdown-item" href="#section_6">Student Querry</a></li>
+                                <li><a class="dropdown-item" href="#section_6">Careeres</a></li>
+                                <!-- Add more dropdown items as needed -->
+                            </ul>
+                        </li>
+                        <a class="nav-link" href="BusinesQuerry.html" id="navbarDropdown" role="button" data-bs-
+                        toggle="dropdown" aria-expanded="false">
+                        <small class="small-title">
+                            <strong class="text-warning">Contact </strong>
+                        </small> 
+                        </a>
+                        <a class="nav-link" href="Blogpage.html" id="navbarDropdown" role="button" data-bs-
+                        toggle="dropdown" aria-expanded="false">
+                        <small class="small-title">
+                            <strong class="text-warning">Blog</strong>
+                        </small> 
+                        </a>
+                        <!-- free counseling -->
+                        <a class="nav-link" href="Counseling.html" id="navbarDropdown" role="button">
+                            <small class="small-title">
+                                <strong class="text-warning" style="background-color: #25d3bf; padding: 20px;">
+                                    Book Free Counseling
+                                </strong>
+                            </small> 
+                        </a>
+                        
+                    </ul>
+                </div>  
+            </div>
+        </nav>
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                        
+                    <div class="col-lg-6 col-12">
+                        <div class="site-footer-wrap d-flex align-items-center">
+                            <ul class="social-icon">
+                                <li><a href="https://www.linkedin.com/company/europass-immigration/" class="social-icon-link bi-linkedin"></a></li>
+
+                                <li><a href="https://www.facebook.com/share/NSQAjoc8ffRaiYZB/?mibextid=qi2Omg" class="social-icon-link bi-facebook"></a></li>
+    
+                                <li><a href="https://www.instagram.com/europassimmigration?igsh=MWVrZ3lvcTM4Y3ZnYw==" class="social-icon-link bi-instagram"></a></li>
+    
+                                <li><a href="https://youtube.com/@europassimmigration?si=HUNqoYPLVyONhaR" class="social-icon-link bi-youtube"></a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--  -->
+<style>
+            ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ffd728;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+        </style>
+        <footer class="footer-section">
+            <div class="container">
+                <div class="footer-cta pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <div class="cta-text">
+                                    <h4>Find us</h4>
+                                    <span>2ND FLOOR, SANKAT MOCHAN MARKET, VIGEN INDIA, near MUNNACHOWK, New Colony, Kankarbagh, Chitragupta Nagar, Patna, Bihar 800020</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="fas fa-phone"></i>
+                                <div class="cta-text">
+                                    <h4>Call us</h4>
+                                    <span>91-9971616548</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-md-4 mb-30">
+                            <div class="single-cta">
+                                <i class="far fa-envelope-open"></i>
+                                <div class="cta-text">
+                                    <h4>Mail us</h4>
+                                    <span>info@europass.in</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-content pt-5 pb-5">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="images/europass.logo.png" alt="Your Image" 
+                                        style="height: 40px; width: auto; margin-right: 10px;"></a>
+                                </div>
+                                <div class="footer-text">
+                                    <p>We, Europass situated at Kankarbagh, Patna, Bihar, Aim to cater to various educational counsellings needs of todays generation, weve established to offer…..</p>
+                                </div>
+                                <div class="footer-social-icon">
+                                    <span>Follow us</span>
+                                    <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                    <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                    <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Useful Links</h3>
+                                <ul>
+                                    <li><a href="about_us.html">About </a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Contact </a></li>
+                                 </ul>   
+                                </div>
+                                <ul>
+                                
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                            <div class="footer-widget">
+                                <div class="footer-widget-heading">
+                                    <h3>Subscribe</h3>
+                                </div>
+                                <div class="footer-text mb-25">
+                                    <p>Empower yourself with the knowledge and skills gained through Europass Immigration and best Wordwide Universities.</p>
+                                </div>
+                                <div class="subscribe-form">
+                                    <form action="#">
+                                        <input type="text" placeholder="Email Address">
+                                        <button><i class="fab fa-telegram-plane"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                            <div class="copyright-text">
+                                <p>Copyright &copy; 2024, All Right Reserved <a href="#">Europass Immigration</a></p>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="about_us.html">About</a></li>
+                                    <li><a href="services.html">Services</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="Employees.html">Employees</a></li>
+                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/magnific-popup-options.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/custom.js"></script>
+
+    </body>
+</html>

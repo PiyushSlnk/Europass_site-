@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Link</title>
+    <style>
+        .whatsapp-link {
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 60px;
+            height: 60px;
+            background-color: #25D366; /* WhatsApp green color */
+            border-radius: 50%;
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-align: center;
+            cursor: pointer;
+            border: 2px solid #fff; /* White border */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Shadow effect */
+        }
+        .whatsapp-link:hover {
+            transform: scale(1.1); /* Scale up on hover */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4); /* Increased shadow on hover */
+        }
+        .whatsapp-icon {
+            width: 40px;
+            height: 40px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- wtapp start -->
+    <div class="whatsapp-link" onclick="openWhatsAppChat()">
+        <img 
+        src="images/img-removebg-preview.png" alt="WhatsApp"
+        class="whatsapp-icon">
+    </div>
+
+    <script>
+        function openWhatsAppChat() {
+            alert('Contact with Europass Councilor');
+            window.open('https://wa.me/1234567890?text=Hello%20there!', '_blank');
+        }
+    </script>
+    <!-- wtapp end -->
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+  <!--   <link rel="stylesheet" href="styles.css"> -->
+</head>
+<style>
+
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    width: 300px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+    color: #666666;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#error-message {
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+
+</style>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form id="loginForm" action="europass.html" onsubmit="return validateLogin()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        <a href="europass.html"><button type="submit">Login</button>
+            <p id="error-message"></p></a>
+        </form>
+    </div>
+    <script>
+
+// scripts.js
+
+function validateLogin() {
+    const username = document.getElementById('username').value;
+    const password = document.getElementById('password').value;
+    const errorMessage = document.getElementById('error-message');
+
+    // Validate credentials
+    if (username === 'admin_23' && password === 'europass@2024') {
+        alert('Login successful!');
+        // Optionally, redirect to another page
+        window.location.href = 'europass.html';
+        return false; // Prevent default form submission
+    } else {
+        errorMessage.textContent = 'Invalid username or password. Please try again.';
+        return false; // Prevent default form submission
+    }
+}
+
+
+    </script>
+</body>
+</html>

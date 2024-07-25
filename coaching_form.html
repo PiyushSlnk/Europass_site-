@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #f9c10b;;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            width: 100px; /* Adjust the width of the logo */
+        }
+
+        .header-links {
+            display: flex;
+        }
+
+        .header-links a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .container {
+            max-width: 1200px; /* Set the maximum width of the container */
+            margin: 0 auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+            gap: 20px;
+        }
+
+        .container > div {
+            background-color: transparent;
+            padding: 30px;
+            
+            border-radius: 10px;
+            /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); */
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .contact-form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        textarea,
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        textarea {
+            height: 150px;
+            resize: vertical;
+        }
+
+        select {
+            appearance: none;
+            background: url('data:image/svg+xml;utf8,<svg fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>') no-repeat right 15px center/10px 10px;
+            padding-right: 30px;
+        }
+
+        button[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!--<img src="logo.png" alt="Company Logo" class="logo">-->
+        <img src="images/europass.logo.png" alt="Your Image" 
+                    style="height: 40px; width: auto; margin-right: 10px;">
+        <h1>IELTS Course Enquire</h1>
+        <div class="header-links">
+            <a href="index.html">Home</a>
+            <a href="BusinesQuerry.html">Contact</a>
+        </div>
+    </header>
+
+    <div class="container" >
+        <div>
+            <!-- <h1 style="margin-top: 10rem;">Financial planning for studying abroad</h1> -->
+            <p style="font-weight: 500; color: black; margin-top: 10rem;">
+                     <h2 style="margin-left:20px;color:#f9c10b;">Financial planning for studying abroad </h2>
+               <ul>
+              <li> Brief overview of the importance of financial planning for studying abroad.</li>
+              <li> Emphasize the need for careful budgeting to manage expenses effectively.</li>
+              <li> Explanation of different funding options such as scholarships, grants, student loans, part-time work, savings, and family support.</li>
+              <li> Guidance on how to research and apply for scholarships and grants specific to studying abroad.</li>
+               </ul>
+            </p>
+        </div>
+        
+        <div class="contact-form">
+            <h1>Contact Us</h1>
+            <form action="https://api.web3forms.com/submit" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="hidden" name="access_key" value="cfc53c02-4939-4921-8a83-24e05e0f30de">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">service:</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">Financial Plaing</option>
+                        <option value="General Inquiry">Ielts  Coaching</option>
+                        <option value="Technical Support">visa Assistance</option>
+                        <option value="Sales">Counceling Coach</option>
+                        <option value="Feedback">other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
